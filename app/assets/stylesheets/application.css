@@ -1,0 +1,213 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+    background-color: #FF0;
+}
+a:active {
+    text-decoration: none;
+}
+td img {display: block;}body {
+                            background-color: #FFF;
+                            margin-top: 0px;
+                        }
+#content {
+    text-align: center;
+}
+.parrafo {
+    font-family: Verdana, Geneva, sans-serif;
+    color: #000;
+    font-size: 12px;
+}
+.centralcontent {
+    width: 95%;
+    padding: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    text-align: justify;
+    vertical-align: top;
+    height: auto;
+}
+h1 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+table {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+}
+.divservice {
+    vertical-align: top;
+}
+.title {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    float: left;
+    width: 96%;
+}
+.photosarea {
+    float: left;
+    width: 97%;
+    margin-left: 10px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+.picsarea {
+    float: left;
+    width: 31.5%;
+    margin: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+.textarea {
+    float: left;
+    width: 31.5%;
+    margin-left: 5px;
+    line-height: 17px;
+}.textarea li {
+     list-style-type: none;
+     font-family: Verdana, Geneva, sans-serif;
+     font-size: 12px;
+     font-weight: normal;
+     text-align: center;
+ }
+a {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    color: #000;
+}
+.textarea li div {
+    margin-bottom: 2px;
+}
+.textarea p {
+    text-align: justify;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.emaillink {
+    font-weight: bold;
+    font-variant: small-caps;
+    text-decoration: underline blink;
+    color: #F90;
+}
+.emaillink:hover {
+    color: #000;
+}#lastp {
+     margin-left: 15px;
+ }
+.titlemessage {
+    float: left;
+    height: auto;
+    width: auto;
+}
+.title label {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: #000;
+    text-align: left;
+    font-style: italic;
+}
+#message {
+    float: right;
+    font-family: Verdana, Geneva, sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 12px;
+    color: #000;
+    font-variant: small-caps;
+}
+.title div {
+    float: left;
+}
+.information {
+    width: 50%;
+    float: left;
+}
+.picsinformation {
+    float: left;
+    width: 43%;
+    margin-left: 19px;
+}
+
+.titleimage {
+    width: 95%;
+    text-align: right;
+    vertical-align: middle;
+    padding-left: 29px;
+}
+.titleimage p {
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 15px;
+    padding-right: 25px;
+}
+#listtips {
+    text-align: left;
+    clear: left;
+    padding-right: 15px;
+}
+#GaleryArea {
+    clear: left;
+    margin-left: 15px;
+}
+#galpicsrow {
+    clear: left;
+}
+
+.galpics {
+    height: 106px;
+    width: 119px;
+    margin: 2px;
+    float: left;
+}
+.miniature {}
+.miniature:hover {
+    cursor: pointer;
+    height: 111px;
+    width: 124px;
+    filter: Gray;
+}
+
+.footer {
+    background-image: url(/assets/habanaexplore_r10_c1_s1.jpg);
+    height: 45px;
+    font-weight: normal;
+    font-variant: small-caps;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.photosareacontact {
+    float: left;
+    width: 97%;
+    padding-right: 5px;
+    padding-bottom: 5px;
+
+}
